@@ -2,7 +2,7 @@
 #
 # A pile of coins contains only nickels and dimes.
 # Given the total amount of dollars and cents, and the total number of coins, determine
-# the number of nickels and the number of dimes. """
+# the number of nickels and the number of dimes.
 
 def assert_count_correct(dollars, cents, nickels, dimes):
     assert ((dollars * 100) + cents) == ((nickels * 5) + (dimes * 10))
